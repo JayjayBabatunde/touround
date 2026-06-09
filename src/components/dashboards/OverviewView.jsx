@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import StatCard from "./Statscard";
 import BookingCard from "./BookingCard";
-import { FAVOURITES } from "./DashboardData";
 import { useAuth } from "../../hooks/useAuth";
 import { getUserBookings } from "../../../firebase/Bookings";
 
@@ -31,10 +30,9 @@ export default function OverviewView() {
     return (
         <div className="flex flex-col gap-6" style={{ animation: "slideUp .3s ease both" }}>
             {/* Stat cards */}
-            <div className="grid grid-cols-2 lg:grid-cols-4 gap-3">
+            <div className="grid grid-cols-2 lg:grid-cols-3 gap-3">
                 <StatCard icon="confirmation_number" label="Upcoming trips" value={upcoming.length} />
                 <StatCard icon="check_circle" label="Trips completed" value={completed.length} />
-                <StatCard icon="favorite" label="Saved places" value={FAVOURITES.length} />
                 <StatCard icon="payments" label="Total spent" value={`$${totalSpent.toLocaleString()}`} />
             </div>
 

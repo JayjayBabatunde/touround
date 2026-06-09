@@ -17,7 +17,7 @@ const PAGE_META = {
     account: { title: "Account Settings", sub: "Manage your profile and preferences." },
 };
 
-export default function DashboardPage({ onBook }) {
+export default function DashboardPage() {
     const [tab, setTab] = useState("overview");
     const [sidebarOpen, setSidebarOpen] = useState(false);
     const navigate = useNavigate();
@@ -78,7 +78,7 @@ export default function DashboardPage({ onBook }) {
                         className="md:hidden text-[16px] font-extrabold text-[#00327d]"
                         style={{ fontFamily: "'Plus Jakarta Sans', sans-serif" }}
                     >
-                        VentureGlobal
+                        TourRound
                     </span>
 
                     <button
