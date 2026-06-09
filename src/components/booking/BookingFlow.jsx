@@ -106,7 +106,7 @@ export default function BookingFlow({ destination, onClose }) {
                 <div className="max-w-[1100px] mx-auto px-4 sm:px-6 h-[60px] flex items-center justify-between">
                     <span className="text-lg sm:text-xl font-extrabold text-[#00327d]"
                         style={{ fontFamily: "'Plus Jakarta Sans', sans-serif" }}>
-                        VentureGlobal
+                        TourRound
                     </span>
                     {!isConfirmed && (
                         <span className="hidden sm:block text-[13px] font-bold text-gray-500">

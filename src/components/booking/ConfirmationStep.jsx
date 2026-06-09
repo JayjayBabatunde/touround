@@ -96,30 +96,6 @@ export default function ConfirmationStep({ destination, booking, bookingRef, onD
                 </div>
             </div>
 
-            {/* Next steps */}
-            <div>
-                <h3 className="text-[14px] font-extrabold text-gray-900 mb-4"
-                    style={{ fontFamily: "'Plus Jakarta Sans', sans-serif" }}>What happens next</h3>
-                <div className="flex flex-col gap-3">
-                    {nextSteps.map((s, i) => (
-                        <div key={s.title}
-                            className="flex items-start gap-3.5 bg-white rounded-2xl border border-gray-100 px-4 py-3.5 shadow-sm"
-                            style={{ animation: `slideUp .4s ease ${0.1 + i * 0.08}s both` }}>
-                            <div className="w-9 h-9 rounded-xl flex items-center justify-center flex-shrink-0"
-                                style={{ background: `rgba(0,50,125,${0.06 + i * 0.02})` }}>
-                                <Icon name={s.icon} className="text-[17px] text-[#00327d]" />
-                            </div>
-                            <div className="flex-1 min-w-0">
-                                <div className="text-[13px] font-bold text-gray-800">{s.title}</div>
-                                <div className="text-[12px] text-gray-500 mt-0.5">{s.desc}</div>
-                            </div>
-                            <div className="ml-auto flex-shrink-0 w-6 h-6 rounded-full bg-gray-100 flex items-center justify-center">
-                                <span className="text-[11px] font-bold text-gray-500">{i + 1}</span>
-                            </div>
-                        </div>
-                    ))}
-                </div>
-            </div>
 
             {/* Actions */}
             <div className="flex flex-col sm:flex-row gap-3">
