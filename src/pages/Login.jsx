@@ -124,7 +124,7 @@ export default function LoginPage({ onNavigateToSignup }) {
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full border border-white/5" />
         <div className="relative z-10 flex flex-col justify-between p-12 w-full">
           <button onClick={() => navigate("/")} className="text-2xl font-extrabold text-white text-left" style={{ fontFamily: "'Plus Jakarta Sans', sans-serif" }}>
-            VentureGlobal
+            TourRound
           </button>
           <div style={{ animation: "slideUp .5s ease .1s both" }}>
             <div className="inline-flex items-center gap-2 bg-white/15 backdrop-blur-sm text-white/90 text-[11px] font-bold tracking-widest uppercase px-4 py-1.5 rounded-full mb-5">

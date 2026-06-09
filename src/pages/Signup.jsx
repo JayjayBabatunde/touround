@@ -171,7 +171,7 @@ export default function SignupPage({ onNavigateToLogin }) {
             <div className="flex-1 flex items-start justify-center bg-[#f7f9fb] px-8 py-10 overflow-y-auto">
                 <div className="w-full max-w-[460px]" style={{ animation: "slideUp .45s ease both" }}>
                     <button onClick={() => navigate("/")} className="lg:hidden text-xl font-extrabold text-[#00327d] mb-8 text-left" style={{ fontFamily: "'Plus Jakarta Sans', sans-serif" }}>
-                        VentureGlobal
+                        TourRound
                     </button>
 
                     <div className="mb-7">
