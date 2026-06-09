@@ -84,7 +84,7 @@ export default function HomeNavbar() {
                             flexShrink: 0,
                         }}
                     >
-                        VentureGlobal
+                        TourRound
                     </Link>
 
                     <div className="nav-desktop-links" style={{ gap: 32, alignItems: "center" }}>

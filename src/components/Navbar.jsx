@@ -43,7 +43,7 @@ export default function Navbar({ currentView }) {
                     className="font-bold text-xl text-[#00327d] shrink-0"
                     style={{ fontFamily: "'Plus Jakarta Sans', sans-serif", textDecoration: "none" }}
                 >
-                    VentureGlobal
+                    TourRound
                 </Link>
 
                 <div className="hidden md:flex items-center gap-7">
