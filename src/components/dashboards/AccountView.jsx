@@ -4,7 +4,7 @@ import { useAuth } from "../../hooks/useAuth";
 import { logoutUser } from "../../../firebase/Auth";
 import { doc, updateDoc } from "firebase/firestore";
 import { db } from "../../../firebase/firebase";
-import { initials } from "./dashboardData";
+import { initials } from "./DashboardData";
 import { useNavigate } from "react-router-dom";
 
 function ProfileField({ label, value, field, editing, form, onChange }) {

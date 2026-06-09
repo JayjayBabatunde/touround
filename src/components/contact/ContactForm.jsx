@@ -1,6 +1,6 @@
 import { useState, useId } from "react";
 import Icon from "../destinations/Icon";
-import { validateField, validateAll, isValid, SUBJECTS } from "./contactUtils";
+import { validateField, validateAll, isValid, SUBJECTS } from "./ContactUtils";
 
 function FormField({ id, label, error, touched, required, children }) {
     return (
@@ -388,7 +388,7 @@ export default function ContactForm() {
 }
 
 function simulateSubmit(fields) {
-    return new Promise((resolve, reject) => {
+    return new Promise((resolve) => {
         setTimeout(() => {
             resolve(fields);
         }, 1800);

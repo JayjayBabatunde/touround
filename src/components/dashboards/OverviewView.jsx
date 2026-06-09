@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import StatCard from "./Statscard";
 import BookingCard from "./BookingCard";
-import { FAVOURITES } from "./dashboardData";
+import { FAVOURITES } from "./DashboardData";
 import { useAuth } from "../../hooks/useAuth";
 import { getUserBookings } from "../../../firebase/Bookings";
 

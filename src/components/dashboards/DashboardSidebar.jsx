@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import Icon from "../destinations/Icon";
 import { useAuth } from "../../hooks/useAuth";
-import { initials } from "./dashboardData";
+import { initials } from "./DashboardData";
 import { logoutUser } from "../../../firebase/Auth";
 
 const NAV_ITEMS = [

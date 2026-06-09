@@ -1,6 +1,6 @@
 import Icon from "../destinations/Icon";
 import StatusPill from "./StatusPill";
-import { formatDate, daysUntil } from "./dashboardData";
+import { formatDate, daysUntil } from "./DashboardData";
 
 
 export default function BookingCard({ booking, style }) {
