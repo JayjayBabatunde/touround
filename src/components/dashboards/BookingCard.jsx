@@ -1,5 +1,5 @@
 import Icon from "../destinations/Icon";
-import StatusPill from "./StatusPill";
+import StatusPill from "./Statuspill";
 import { formatDate, daysUntil } from "./DashboardData";
 
 
