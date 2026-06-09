@@ -11,13 +11,6 @@ export default function ConfirmationStep({ destination, booking, bookingRef, onD
     const total = subtotal + taxes;
     const lead = booking.travellerDetails?.[0];
 
-    const nextSteps = [
-        { icon: "mail", title: "Confirmation email", desc: `Sent to ${lead?.email || "your email"} within 5 minutes` },
-        { icon: "description", title: "Travel documents", desc: "Vouchers & itinerary emailed 7 days before departure" },
-        { icon: "luggage", title: "Packing checklist", desc: "Access your personalised list in your account dashboard" },
-        { icon: "support_agent", title: "24/7 support", desc: "Our travel experts are always available to help" },
-    ];
-
     return (
         <div className="flex flex-col gap-6 sm:gap-7" style={{ animation: "slideUp .45s ease both" }}>
             {/* Hero */}
