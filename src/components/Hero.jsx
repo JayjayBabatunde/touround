@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { C } from "../colors/colors";
 
 export function Hero() {
@@ -125,13 +126,11 @@ export function Hero() {
                             animation: "heroSlide .7s ease .55s both",
                         }}
                     >
-                        <button className="btn-primary" style={{ padding: "16px 32px", fontSize: 14 }}>
+                        <Link to="/destinations" className="btn-primary" style={{ padding: "16px 32px", fontSize: 14 }}>
                             Explore Destinations
                             <span className="msym" style={{ fontSize: 20 }}>arrow_forward</span>
-                        </button>
-                        <button className="btn-glass" style={{ padding: "16px 32px" }}>
-                            Our Story
-                        </button>
+                        </Link>
+
                     </div>
                 </div>
             </div>

@@ -70,13 +70,13 @@ export default function Navbar({ currentView }) {
                 </div>
 
                 <div className="hidden md:flex items-center gap-3">
-                    <button
+                    {/* <button
                         onClick={() => navigate("/auth")}
                         className="text-[13px] font-semibold text-[#00327d] px-4 py-2 rounded-full hover:bg-blue-50 transition-colors duration-200"
                         style={{ fontFamily: "'Be Vietnam Pro', sans-serif" }}
                     >
                         Sign In
-                    </button>
+                    </button> */}
                     <button
                         onClick={() => navigate("/auth")}
                         className="text-[13px] font-bold text-white bg-[#fc8a40] px-5 py-2.5 rounded-full hover:-translate-y-0.5 hover:shadow-lg hover:shadow-orange-300/50 transition-all duration-200 active:scale-95"

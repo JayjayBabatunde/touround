@@ -96,26 +96,7 @@ export default function HomeNavbar() {
                     </div>
 
                     <div className="nav-desktop-actions" style={{ alignItems: "center", gap: 16 }}>
-                        <button
-                            onClick={() => navigate("/auth")}
-                            style={{
-                                background: "none",
-                                border: "none",
-                                fontFamily: "'Be Vietnam Pro', sans-serif",
-                                fontSize: 14,
-                                fontWeight: 600,
-                                letterSpacing: ".05em",
-                                color: C.primary,
-                                cursor: "pointer",
-                                padding: "8px 16px",
-                                borderRadius: 999,
-                                transition: "opacity .2s",
-                            }}
-                            onMouseEnter={(e) => (e.currentTarget.style.opacity = ".7")}
-                            onMouseLeave={(e) => (e.currentTarget.style.opacity = "1")}
-                        >
-                            Sign In
-                        </button>
+
                         <button
                             className="btn-primary"
                             style={{ padding: "10px 24px" }}

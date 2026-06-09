@@ -1,7 +1,9 @@
+import { useNavigate } from "react-router-dom";
 import { C } from "../colors/colors";
 import { FadeUp } from "../components/Animations";
 
 export function CTA() {
+    const navigate = useNavigate();
     return (
         <section style={{ padding: "100px 0" }}>
             <style>{`
@@ -93,6 +95,7 @@ export function CTA() {
                         </p>
                         <button
                             className="btn-primary"
+                            onClick={() => navigate("/auth")}
                             style={{ padding: "20px 48px", fontSize: 15, position: "relative" }}
                         >
                             Start Planning Now
